@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+
+    <label for "languagename">What language was created to add interactivity to the Web? : <input class = "language" type="text"></input></label>
+
+    <script>
+        // For the Language
+        alert(document.querySelector('.language'));
+        var languagename = document.querySelector('.language');
+        languagename.addEventListener('focusout',
+            (event) => { alert(languagename.value) });
+        //For the code library
+        codelibrary = prompt("What library would you prefer to use, Vue, React or jQuery?");
+        alert(codelibrary);
+
+    </script>
+
+</body>
+
+</html>
